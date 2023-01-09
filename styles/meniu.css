@@ -43,7 +43,6 @@
   .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -65,10 +64,6 @@
     object-fit: cover;
     object-position: center;
   }
-  .container h1{
-    position: relative;
-    left: -30rem;
-  }
   #close{
     position: relative;
     float: right;
@@ -76,7 +71,7 @@
     background: rgba(255, 0, 0, 0);
     color: white;
     top: 4rem;
-    right: -30rem;
+    right: -78rem;
     width: 2rem;
     height: 2rem;
   }
