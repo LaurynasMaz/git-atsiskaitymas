@@ -36,11 +36,12 @@
 	color: white;
   top: 4rem;
   right: -18rem;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
-.container button:hover{
+#close:hover{
   transform: rotate(90deg);
+  transition: transform 0.1s ease-in-out;
 }
 @media(min-width: 576px){
   .container{
@@ -75,8 +76,6 @@
     color: white;
     top: 4rem;
     right: 3rem;
-    width: 2rem;
-    height: 2rem;
   }
 
 }
