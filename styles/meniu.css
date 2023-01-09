@@ -1,0 +1,26 @@
+.tab{
+  display: none;
+}
+.show{
+  display: flex;
+}
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(29, 28, 28, 0.692);
+  color: white;
+  width: 90%;
+  height: 90%;
+}
+.container iframe{
+  width: 90%;
+  height: 10rem;
+}
+.container img{
+  width: 90%;
+  height: 10rem;
+  object-fit: cover;
+  object-position: center;
+}

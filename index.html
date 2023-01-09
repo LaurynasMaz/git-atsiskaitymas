@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>git atsiskaitymas</title>
   <link rel="stylesheet" href="./styles/main.css">
-  <script src="./scripts/main.js"></script>
+  <script src="./scripts/main.js" type="module"></script>
 </head>
 <body>
   <img src="./images/bg.jpg" class="background" alt="">
@@ -24,13 +24,44 @@
     <div class="logoLine">
     </div>
     <nav>
-      <a href="#">INTRO</a>
-      <a href="#">WORK</a>
-      <a href="#">ABOUT</a>
-      <a href="#">CONTACT</a>
+      <a href="intro">INTRO</a>
+      <a href="work">WORK</a>
+      <a href="about">ABOUT</a>
+      <a href="contacts">CONTACT</a>
     </nav>
-    
   </header>
+  <section id="intro" class="tab">
+    <div class="container">
+      <button id="close">X</button>
+      <h1>Intro</h1>
+      <iframe src="./images/tab-1.mp4" type="video/mp4"> </iframe>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores architecto labore. Placeat officiis nesciunt cupiditate assumenda delectus sapiente optio, voluptate sit id eligendi, odit dolorum nemo saepe. Numquam, pariatur cupiditate? Inventore voluptates nostrum excepturi distinctio magni corrupti praesentium. Nam quod ratione, dolorem cum, ipsum voluptatum, impedit ipsam aut dignissimos ipsa voluptatem odio alias sed.</p>
+    </div>
+  </section>
+  <section id="work" class="tab">
+    <div class="container">
+      <button id="close">X</button>
+      <h1>Work</h1>
+      <img src="./images/tab-2.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores architecto labore. Placeat officiis nesciunt cupiditate assumenda delectus sapiente optio, voluptate sit id eligendi, odit dolorum nemo saepe. Numquam, pariatur cupiditate? Inventore voluptates nostrum excepturi distinctio magni corrupti praesentium. Nam quod ratione, dolorem cum, ipsum voluptatum, impedit ipsam aut dignissimos ipsa voluptatem odio alias sed.</p>
+    </div>
+  </section>
+  <section id="about" class="tab">
+    <div class="container">
+      <button id="close">X</button>
+      <h1>Work</h1>
+      <img src="./images/tab-3.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores architecto labore. Placeat officiis nesciunt cupiditate assumenda delectus sapiente optio, voluptate sit id eligendi, odit dolorum nemo saepe. Numquam, pariatur cupiditate? Inventore voluptates nostrum excepturi distinctio magni corrupti praesentium. Nam quod ratione, dolorem cum, ipsum voluptatum, impedit ipsam aut dignissimos ipsa voluptatem odio alias sed.</p>
+    </div>
+  </section>
+  <section id="contacts" class="tab">
+    <div class="container">
+      <button id="close">X</button>
+      <h1>Contacts</h1>
+      <img src="./images/tab-4.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores architecto labore. Placeat officiis nesciunt cupiditate assumenda delectus sapiente optio, voluptate sit id eligendi, odit dolorum nemo saepe. Numquam, pariatur cupiditate? Inventore voluptates nostrum excepturi distinctio magni corrupti praesentium. Nam quod ratione, dolorem cum, ipsum voluptatum, impedit ipsam aut dignissimos ipsa voluptatem odio alias sed.</p>
+    </div>
+  </section>
   
 </body>
 </html>
