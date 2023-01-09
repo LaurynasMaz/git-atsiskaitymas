@@ -1,5 +1,5 @@
 header{
-  padding-top: 9rem;
+  padding-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,8 +21,11 @@ header{
 .logoLine{
   border-left: 1px solid white;
   height: 4rem;
+  
 }
 .logoText{
+  padding-left: 10px;
+  padding-right: 10px;
   border-top: 1px solid white;
   color: white;
   border-bottom: 1px solid white;
@@ -33,12 +36,27 @@ header{
   text-align: center;
 }
 .logoText p{
-  padding-left: 10px;
-  padding-right: 10px;
   padding-bottom: 2rem;
+  color:var(--color-main);
 }
 .logoText a{
-  color: white;
-  border-bottom: 1px dotted white;
-   text-decoration: none;
+  color: var(--color-main);
+  border-bottom: 1px dotted var(--color-main);
+  text-decoration: none;
+}
+nav{
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 100%;
+}
+nav a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  width: 100%;
+  height: 2.5rem;
+  color: var(--color-main);
+  text-decoration: none;
 }

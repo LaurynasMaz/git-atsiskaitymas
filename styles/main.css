@@ -6,6 +6,10 @@ body{
   height: 100vh;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 .background {
   width: 100%;
@@ -16,6 +20,8 @@ body{
   z-index: -2;
 }
 .bodyoverlay{
+  width: 100%;
+  height: 100%;
   position: absolute;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.295);
