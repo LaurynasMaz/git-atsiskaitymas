@@ -68,14 +68,15 @@
     object-position: center;
   }
   #close{
-    position: relative;
+    position: absolute;
     float: right;
     border: none;
     background: rgba(255, 0, 0, 0);
     color: white;
     top: 4rem;
-    right: -78rem;
+    right: 3rem;
     width: 2rem;
     height: 2rem;
   }
+
 }
