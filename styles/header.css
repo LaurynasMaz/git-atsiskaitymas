@@ -22,3 +22,23 @@ header{
   border-left: 1px solid white;
   height: 4rem;
 }
+.logoText{
+  border-top: 1px solid white;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.logoText h1{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.logoText p{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2rem;
+}
+.logoText a{
+  color: white;
+  border-bottom: 1px dotted white;
+   text-decoration: none;
+}
