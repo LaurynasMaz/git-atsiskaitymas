@@ -5,22 +5,37 @@
   display: flex;
 }
 .container{
+  display: flex;
+  flex-direction: column;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(29, 28, 28, 0.692);
   color: white;
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 95%;
+  padding: 2rem;
+  gap: 2rem;
 }
 .container iframe{
-  width: 90%;
+  width: 100%;
   height: 10rem;
 }
 .container img{
-  width: 90%;
+  width: 100%;
   height: 10rem;
   object-fit: cover;
   object-position: center;
+}
+#close{
+  position: relative;
+  float: right;
+  border: none;
+  background: rgba(255, 0, 0, 0);
+	color: white;
+  top: 4rem;
+  right: -18rem;
+  width: 2rem;
+  height: 2rem;
 }

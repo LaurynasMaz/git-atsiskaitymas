@@ -46,6 +46,10 @@ header{
   border-bottom: 1px dotted var(--color-main);
   text-decoration: none;
 }
+.logoText a:hover{
+  color: rgb(90, 187, 187);
+  border-bottom: 1px dotted rgb(90, 187, 187)
+}
 nav{
 display: flex;
 align-items: center;
