@@ -39,3 +39,46 @@
   width: 2rem;
   height: 2rem;
 }
+@media(min-width: 576px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(29, 28, 28, 0.692);
+    color: white;
+    width: 80%;
+    height: 80%;
+    padding: 4rem;
+    gap: 2rem;
+  }
+  .container iframe{
+    width: 100%;
+    height: 15rem;
+  }
+  .container img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .container h1{
+    position: relative;
+    left: -30rem;
+  }
+  #close{
+    position: relative;
+    float: right;
+    border: none;
+    background: rgba(255, 0, 0, 0);
+    color: white;
+    top: 4rem;
+    right: -30rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  
+}
