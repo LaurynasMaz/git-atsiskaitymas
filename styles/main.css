@@ -26,3 +26,8 @@ body{
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.295);
 }
+@media(min-width: 576px){
+  body{
+    padding: 5rem;
+  }
+}
