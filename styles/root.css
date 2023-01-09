@@ -1,18 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-}
-.background {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  object-position: center;
+:root{
+  font-family:'Roboto', sans-serif;
+  --color-main:rgb(201, 201, 201);
 }
