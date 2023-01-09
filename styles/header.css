@@ -1,7 +1,8 @@
 header{
   padding-top: 9rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .logo {
   height: 8rem;
@@ -16,5 +17,8 @@ header{
 .logo img{
   width: 3.5rem;
   height: 3.5rem;
-  
+}
+.logoLine{
+  border-left: 1px solid white;
+  height: 4rem;
 }
